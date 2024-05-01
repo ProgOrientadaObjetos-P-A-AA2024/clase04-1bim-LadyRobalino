@@ -20,9 +20,9 @@ public class Hospital {
         valores que serán asignados a los atributos.
     
     */
+   
     
-    
-    public Hospital(){
+    public Hospital(String a,String b, int c, int d){
         nombre = "na";
         ciudad = "ciu";
         numeroDoctores = 100;
