@@ -1,14 +1,9 @@
-package paquete1;
+package paquete02;
+
 
 public class Computadora {
     private String tipoProcesador;
     private double memoria;
-    
-    public Computadora(){
-        tipoProcesador = "Intel - X";
-        memoria = 16;
-                
-    }
     
     public Computadora(double m){
         memoria = m;

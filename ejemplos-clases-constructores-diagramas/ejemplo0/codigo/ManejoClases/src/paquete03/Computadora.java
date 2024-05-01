@@ -1,4 +1,6 @@
-package paquete1;
+package paquete03;
+
+import paquete1.*;
 
 public class Computadora {
     private String tipoProcesador;
