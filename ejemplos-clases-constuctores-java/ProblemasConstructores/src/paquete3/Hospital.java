@@ -59,7 +59,15 @@ public class Hospital {
 
         String cadena = String.format("Nombre: %s\nCiudad: %s\nNumero Doctores "
                 + "%d\nNumero de Enfermeros:%d\n", obtenerNombre(),
-                ciudad,obtenerNumeroDoctores(),
+                ciudad,
+                /*
+                En esta parte se puede utilizar "ciudad" en ves de 
+                "obtenerCiudad()", ya que anteriormente le dimos un valor y toma
+                ese valor dado anteriormente y lo presenta sin la necesidad de 
+                que sea un metodo es como presentar una variable en un codigo
+                normal.
+                */
+                obtenerNumeroDoctores(),
                 obtenerNumeroEnfermeros());
         return cadena;
     }
