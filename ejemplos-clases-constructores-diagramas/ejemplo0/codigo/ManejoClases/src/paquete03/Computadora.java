@@ -1,7 +1,5 @@
 package paquete03;
 
-import paquete1.*;
-
 public class Computadora {
     private String tipoProcesador;
     private double memoria;

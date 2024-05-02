@@ -1,4 +1,4 @@
-package paquete1;
+package paquete01;
 
 public class Computadora {
     private String tipoProcesador;

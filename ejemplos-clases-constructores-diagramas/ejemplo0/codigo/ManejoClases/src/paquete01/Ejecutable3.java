@@ -1,4 +1,4 @@
-package paquete1;
+package paquete01;
 public class Ejecutable3 {
     public static void main(String[] args) {
         Computadora personal = new Computadora(24.0);
